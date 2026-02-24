@@ -30,10 +30,9 @@ main, header, footer {
 
 /* Profile Image */
 .profile {
-    width: 120px;
-    border-radius: 50%;
-    display: block;
-    margin: 10px auto;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Styled Links */
@@ -87,4 +86,9 @@ button:hover {
     background-color: #005fa3;
 }
 
-/* Footer *
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
