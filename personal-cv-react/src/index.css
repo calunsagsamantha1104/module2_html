@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #ffffff;
+}
+
+main,
+header,
+footer {
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-card {
+  background: #a7c0d2;
+  color: rgb(60, 52, 52);
+  text-align: center;
+}
+
+.profile {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+a {
+  color: #7db2d7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.skills-toggle-button {
+  margin-top: 16px;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
