@@ -2,7 +2,11 @@ function About() {
   return (
     <section>
       <h2>About Me</h2>
-      <img src="/images/photo.jpg" alt="Profile photo" className="profile-pic" />
+      <img
+        src="/module2_html/images/photo.jpg"
+        alt="Profile photo"
+        className="profile-pic"
+      />
       <p>
         I am an IT student with a growing interest in technology and
         problem-solving, currently learning the fundamentals of information
