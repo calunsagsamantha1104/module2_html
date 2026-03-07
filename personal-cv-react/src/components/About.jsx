@@ -4,10 +4,11 @@ function About() {
   return (
     <Card title="About Me">
       <img
-        src="./module2_html/images/photo.jpg"
-        alt="Profile photo"
-        className="profile-pic"
-      />
+  src="/photo.jpg"
+  alt="Profile photo"
+  className="profile-pic"
+/>
+
       <p>
         I am an IT student with a growing interest in technology and
         problem-solving, currently learning the fundamentals of information
