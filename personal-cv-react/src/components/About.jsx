@@ -1,13 +1,14 @@
 import Card from "./card";
 
+
 function About() {
   return (
     <Card title="About Me">
       <img
-  src="/photo.jpg"
-  alt="Profile photo"
-  className="profile-pic"
-/>
+        src="/images/photo.jpg"   
+        alt="Profile photo"
+        className="profile-pic"
+      />
 
       <p>
         I am an IT student with a growing interest in technology and
