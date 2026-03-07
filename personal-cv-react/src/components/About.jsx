@@ -4,7 +4,7 @@ function About() {
   return (
     <Card title="About Me">
       <img
-        src="/images/photo.JPG"   
+        src="/images/photo.jpg"   
         alt="Profile photo"
         className="profile-pic"
       />
