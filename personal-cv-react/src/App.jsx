@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
 import Skills from './components/Skills.jsx';
@@ -6,25 +5,28 @@ import Education from './components/Education.jsx';
 import Contact from './components/Contact.jsx';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const skills = ["HTML", "CSS", "JavaScript", "React"];
+
+  const education = [
+    {
+      year: "2023",
+      program: "BS Information Technology",
+      school: "Your University"
+    },
+    {
+      year: "2019",
+      program: "Senior High School",
+      school: "Your School"
+    }
+  ];
 
   return (
-    <div className={darkMode ? 'dark-mode' : ''}>
-      <header>
-        <Header />
-        <button onClick={() => setDarkMode(!darkMode)}>
-          Toggle Dark Mode
-        </button>
-      </header>
-      <main>
-        <About />
-        <Education />
-        <Skills />
-        <Contact />
-      </main>
-      <footer>
-        <p>&copy; 2026 Samantha S. Calunsag. All rights reserved.</p>
-      </footer>
+    <div>
+      <Header />
+      <About />
+      <Skills skills={skills} />
+      <Education education={education} />
+      <Contact />
     </div>
   );
 }

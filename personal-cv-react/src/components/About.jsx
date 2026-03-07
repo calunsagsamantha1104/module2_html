@@ -1,9 +1,10 @@
+import Card from "./card";
+
 function About() {
   return (
-    <section>
-      <h2>About Me</h2>
+    <Card title="About Me">
       <img
-        src="/module2_html/images/photo.jpg"
+        src="./module2_html/images/photo.jpg"
         alt="Profile photo"
         className="profile-pic"
       />
@@ -23,9 +24,8 @@ function About() {
           github.com
         </a>
       </p>
-    </section>
+    </Card>
   );
 }
 
 export default About;
-
