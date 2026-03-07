@@ -9,14 +9,24 @@ function App() {
 
   const education = [
     {
-      year: "2023",
+      year: "2028",
       program: "BS Information Technology",
-      school: "Your University"
+      school: "USTP-CDO"
+    },
+    {
+      year: "2023",
+      program: "Senior High School",
+      school: "Liceo de Cagayan University"
+    },
+    {
+      year: "2020",
+      program: "High School",
+      school: "MOGCHS"
     },
     {
       year: "2019",
-      program: "Senior High School",
-      school: "Your School"
+      program: "Elementary School",
+      school: "City Central School"
     }
   ];
 
