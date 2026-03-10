@@ -3,9 +3,9 @@ import Card from "./Card";
 function About() {
   return (
     <Card title="About Me">
-        import profile from "../assets/photo.jpg";
+       import profile from "../assets/profile.jpg";
 
-<img src={profile} alt="photo photo" width="150" />
+<img src={profile} alt="Profile photo" width="150" />
 
       <p>
         I am an IT student with a growing interest in technology and
