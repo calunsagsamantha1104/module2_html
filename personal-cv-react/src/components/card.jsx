@@ -1,7 +1,7 @@
 
 function Card({ title, children }) {
   return (
-    <section className="card">
+    <section className="Card">
       <h2>{title}</h2>
       {children}
     </section>
